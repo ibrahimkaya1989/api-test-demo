@@ -1,0 +1,31 @@
+{
+    "name": "api-test-automation",
+    "version": "1.0.0",
+    "description": "Backend Automation Testing",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "supertest1": "mocha ./supertest/supertest1.js",
+        "supertest2": "mocha ./supertest/supertest2.js",
+        "supertest3": "mocha ./supertest/supertest3.js",
+        "pactum1": "mocha ./pactum/pactum1.js",
+        "frisby2": "mocha ./frisby/frisby2.js"
+    },
+    "keywords": [],
+    "author": "İbrahim Kaya <ibrahim.kaya@kafein.com.tr>",
+    "license": "ISC",
+    "testEnvironment": "node",
+    "dependencies": {
+        "node-fetch": "^3.2.6",
+        "xhr2": "^0.2.1"
+    },
+    "devDependencies": {
+        "chai": "^4.3.6",
+        "express": "^4.18.1",
+        "frisby": "^2.1.3",
+        "mocha": "^10.0.0",
+        "nock": "^13.2.8",
+        "pactum": "^3.1.11",
+        "supertest": "^6.2.4"
+    }
+}
